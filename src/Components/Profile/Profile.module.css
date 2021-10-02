@@ -1,0 +1,52 @@
+.image {
+  width: 100px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.tag {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  background-color: #f7f3f3;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 60px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  padding: 10px;
+}
+
+.label {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.quantity {
+  font-size: 16px;
+  font-weight: 700;
+}

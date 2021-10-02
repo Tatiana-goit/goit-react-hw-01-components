@@ -1,0 +1,16 @@
+.element {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  color: #fff;
+  padding: 6px;
+}
+
+.label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.percentage {
+  font-size: 18px;
+}

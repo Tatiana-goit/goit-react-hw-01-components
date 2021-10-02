@@ -1,0 +1,16 @@
+.title {
+  text-transform: uppercase;
+  color: grey;
+  /* margin-bottom: 20px; */
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.item {
+  border: 1px solid lightgrey;
+}
