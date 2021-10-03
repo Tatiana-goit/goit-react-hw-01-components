@@ -2,9 +2,11 @@ import './App.css';
 import Section from './Components/Section/Section';
 import Profile from './Components/Profile/Profile';
 import Statistics from './Components/Statistics/Statistics';
+import FriendList from './Components/FriendList/FriendList';
 
 import user from './data/user.json';
 import statisticalData from './data/statistical-data.json';
+import friends from './data/friends.json';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
         <Statistics title="Upload stats" stats={statisticalData} />
       </Section>
 
-      <Section title="FriendList"></Section>
+      <Section title="FriendList">
+        <FriendList friends={friends}></FriendList>
+      </Section>
 
       <Section title="Transaction History"></Section>
     </div>
