@@ -11,5 +11,4 @@ export default SectionInfo;
 
 SectionInfo.propTypes ={
     children: PropTypes.node.isRequired,
-
 }

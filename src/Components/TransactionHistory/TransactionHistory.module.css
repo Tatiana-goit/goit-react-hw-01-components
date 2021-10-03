@@ -1,0 +1,23 @@
+.table {
+  width: 50%;
+  border: 2px solid dimgray;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-transform: capitalize;
+}
+
+thead {
+  height: 50px;
+  color: #fff;
+  background-color: rgb(99, 104, 107);
+}
+
+td {
+  border: 2px solid lightgray;
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(224, 224, 235);
+}
