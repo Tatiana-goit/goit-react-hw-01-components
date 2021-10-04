@@ -10,15 +10,12 @@ function FriendList({friends}) {
            <ul className={s.list}>
                 {friends.map(({avatar,name,isOnline,id}) => {
                     return(
-                        <li className={s.item}
-                            key={id}    
-                        > 
-                            <FriendListItems 
+                       <FriendListItems 
                                 avatar={avatar}
                                 name={name}
                                 isOnline={isOnline}
+                                id={id}
                             />
-                        </li>
                     )
                 })}
            </ul>
